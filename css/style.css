@@ -110,12 +110,13 @@ Banner
 .banner{
 	background: url('../img/main/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-	min-height: 680px;
+	min-height: 100vh;
     position: relative;
 }
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.75);
-	min-height: 680px;
+	min-height: 100vh;
+	
 }
 .text-dec{
 	font-size: 24px;
@@ -132,7 +133,7 @@ Banner
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 45px;
 	color: #fff;
-	margin-top: 70px;
+	margin-top: 150px;
 	padding: 0px 30x 0px 30px;
 }
 .extra-padding {
@@ -237,7 +238,7 @@ Banner
 }
 
 /***********************************
-Course
+Categories
 ************************************/
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
     background-color: #5FCF80;
@@ -367,7 +368,7 @@ Footer
 .footer .social-links {
     list-style: none;
     padding: 0;
-    margin: 30px 0 40px;
+    margin: 10px 0 40px;
     padding: 40px 0 0;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
@@ -466,6 +467,8 @@ Responsive media queries
     font-size: 18px;
     }
 }
+	}
+
 @media (min-width: 451px) and (max-width: 768px) {
     .ser-text {
     font-size: 20px;
@@ -554,6 +557,7 @@ Responsive media queries
         text-align: center;
     }
 }
+
 /* tab books page*/
 
 $cyan: #00bcd4;
