@@ -472,7 +472,7 @@ Responsive media queries
 @media (min-width: 451px) and (max-width: 768px) {
     
 	.intro-para{
-		margin-top: 30px;
+		margin-top: 70px;
 	
 	}
 	.ser-text {
@@ -493,7 +493,7 @@ Responsive media queries
 @media (min-width: 20px) and (max-width: 450px) {
 
 	.intro-para{
-		margin-top: 30px;
+		margin-top: 70px;
 	
 	}
 	
