@@ -470,7 +470,12 @@ Responsive media queries
 	}
 
 @media (min-width: 451px) and (max-width: 768px) {
-    .ser-text {
+    
+	.intro-para{
+		margin-top: 30px;
+	
+	}
+	.ser-text {
     font-size: 20px;
     }
     .service-box, .feature-info{
@@ -485,9 +490,14 @@ Responsive media queries
 		.header-section p{
         margin:5 auto;
     }
-	@media (min-width: 20px) and (max-width: 450px) {
+@media (min-width: 20px) and (max-width: 450px) {
 
-		.text-dec {
+	.intro-para{
+		margin-top: 30px;
+	
+	}
+	
+	.text-dec {
     font-size: 20px;
     }
     .big-text {
