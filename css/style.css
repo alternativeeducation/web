@@ -24,7 +24,7 @@ table {
 	border-spacing: 0;
 }
 .section-padding{
-	padding: 60px 0px;
+	padding-top:60px;
 }
 h1, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
@@ -133,8 +133,10 @@ Banner
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 45px;
 	color: #fff;
-	margin-top: 150px;
-	padding: 0px 30x 0px 30px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 .extra-padding {
 	padding:0px 20px 0px 20px;
@@ -257,75 +259,13 @@ Extra Top Margin
 .marginmoreless{
 	margin-top:40px;
 }
-/***********************************
-Contact Us
-************************************/
-.contact form .form {
-    width: 100%;
-    height: auto;
-    padding: 15px 15px 12px;
-    font-size: 18px;
-    margin-bottom: 18px;
-    color: #7f7f7f;
-    letter-spacing: 0.5px;
-}
-#contact .form-control {
-    background: #fafafa;
-    border: 1px solid rgba(119, 81, 81, 0.34);
-    width: 100%;
-	margin-bottom: 15px;
-    border-radius: 0;
 
-}
-.textarea {
-    height: 228px;
-    max-width: 100%;
-    max-height: 229px;
-}
-.light {
-    font-weight: 100;
-}
-.white{
-    color: #fff !important;
-}
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
-}
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
-}
 /***********************************
 Footer
 ************************************/
 .footer {
     padding: 5px 0 20px;
-    background: #424242;
+    background: #111;
     color: #ffffff;
 }
 .footer a {
@@ -453,9 +393,75 @@ Footer
 Responsive media queries
 ************************************
 ***********************************/
-@media (min-width: 769px) and (max-width: 980px) {
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+		
+}
+
+
+
+
+    /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.section-padding{
+	padding-bottom:60px;
+    }
+	
+
+   /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.section-padding{
+	padding-bottom:60px;
+    }
+	
+
+	
+
+
+	
+@media only screen and (min-width: 768x){
+	
+}
     .ser-text {
     font-size: 20px;
+    }
+	.section-padding{
+	padding-bottom:60px;
     }
     .service-box, .feature-info, .orga-stru{
         margin-bottom: 30px;
@@ -469,12 +475,9 @@ Responsive media queries
 }
 	}
 
-@media (min-width: 451px) and (max-width: 768px) {
+@media (min-width: 451px) {
     
-	.intro-para{
-		margin-top: 70px;
-	
-	}
+
 	.ser-text {
     font-size: 20px;
     }
@@ -490,12 +493,9 @@ Responsive media queries
 		.header-section p{
         margin:5 auto;
     }
-@media (min-width: 20px) and (max-width: 450px) {
+@media (min-width: 20px) {
 
-	.intro-para{
-		margin-top: 70px;
-	
-	}
+
 	
 	.text-dec {
     font-size: 20px;
