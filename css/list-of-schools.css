@@ -273,3 +273,19 @@ ul.filter > li span {
 }
 
 /* scroll up code end */
+
+
+/* Resposive Media Query */
+    /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#scroll {
+    right:30px;
+    bottom:30px;
+	}
+
+   /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #scroll {
+    right:30px;
+    bottom:30px;
+	}
