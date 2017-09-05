@@ -113,7 +113,7 @@ Banner
 .banner{
 	background: url('https://www.alternativeeducationindia.net/img/main/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-	min-height: 100vh;
+	  max-height: 600px;
     position: relative;
 }
 .bg-color{
