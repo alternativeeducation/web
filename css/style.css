@@ -11,7 +11,8 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+
+quote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -392,6 +393,166 @@ Footer
 .footer .form-control:focus{
     box-shadow: none;
 }
+/* Get Involved Page */
+#main-cover{
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(255,0,150,0.3));
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+  background-position: 0 40px;
+	background-size: cover;
+	min-height: 600px;
+	font-family: 'Lato', sans-serif;
+
+
+
+
+}
+
+#main-cover h1{
+  position: absolute;
+	top:30%;
+	width: 100%;
+	text-align: center;
+
+
+	font-size: 50px;
+	color: #fff;
+	padding: 0;
+
+}
+#main-cover p{
+	position: absolute;
+	top:50%;
+	left:0;
+	margin: 2% 15%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+#story{
+	display: flex;
+}
+#story img{
+	justify-content: flex-start;
+	width: 50%;
+	max-height: 500px;
+}
+#story  span{
+	display: block;
+	margin-top: 3%;
+}
+.content-right{
+	width: 50%;
+	align-self: center;
+	justify-content: flex-end;
+	padding: 5%
+
+}
+#code{
+	display: flex;
+}
+#code img{
+	justify-content: flex-end;
+	width: 50%;
+	max-height: 500px;
+
+}
+#explore-spaces{
+	display: flex;
+}
+#explore-spaces img{
+	justify-content: flex-start;
+	width: 50%;
+	height: 450px;
+}
+.content-left{
+	width: 50%;
+	align-self: center;
+	justify-content: flex-start;
+	padding: 5%
+
+}
+.grid{
+	display: flex;
+}
+.grid-item{
+
+  width:30%;
+	padding:1% 2%;
+	margin: 1% 2%;
+}
+.grid-item p{
+  width:90%
+	text-align:center;
+	padding-top: 3%;
+
+}
+.grid-item i{
+	display:block;
+	font-size: 100px;
+	text-align: center;
+	padding: 4%;
+
+}
+hr#sm {
+	margin-top: 0%;
+	width: 50%;
+	margin-left: 50%;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+hr{
+
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+#social-media{
+
+
+}
+#social-media h3{
+	text-align: center;
+	padding: 5% 0 2% 0;
+	margin: 0;
+
+}
+#social-media p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+}
+#yourideas{
+
+	margin-bottom: 2%;
+	text-align: center;
+	padding: 3%;
+	font-family: 'Open Sans',sans-serif;
+}
+#yourideas p{
+
+
+	font-size: 19px;
+	font-family: 'Open Sans';
+}
+#contribute p{
+	font-family: 'Roboto';
+}
+
+
+
+
 /***********************************
 ************************************
 Responsive media queries
@@ -399,6 +560,40 @@ Responsive media queries
 ***********************************/
 
 @media (max-width: 991px) {
+
+	  #story{
+			flex-direction: column;
+		}
+		#story img{
+			width: 100%;
+		}
+
+		#code{
+			flex-direction: column-reverse;
+		}
+		#code img{
+			width: 100%;
+		}
+		#explore-spaces{
+			flex-direction: column;
+		}
+		#explore-spaces img{
+			width: 100%;
+		}
+		hr#sm{
+			width: 100%;
+			margin-left: 0%;
+		}
+    .grid{
+			flex-direction: column;
+
+		}
+		.grid-item{
+			width:100%;
+		}
+		.grid-item{
+			padding: 0 25%;
+		}
     .navbar-header {
         float: none;
     }
@@ -605,7 +800,7 @@ h1 {
 }
 
 label, p, a, h1, div {
-  font-family: Roboto, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .tab-wrap {
@@ -720,7 +915,7 @@ label {
   }
 }
 
-/* Get Involved Page */
-#main-cover{
-	background-image:url(https://alternativeeducationindia.net/img/get-involved/teamop.jpg);
+
+
+
 }
