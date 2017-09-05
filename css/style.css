@@ -400,7 +400,7 @@ Footer
 }
 /* Get Involved Page */
 #main-cover{
-	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(25,0,150,0.3));
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
 	background-repeat: no-repeat;
 	width: 100%;
 	position: relative;
