@@ -466,7 +466,7 @@ Footer
 #explore-spaces img{
 	justify-content: flex-start;
 	width: 50%;
-	height: 450px;
+	max-height: 500px;
 }
 .content-left{
 	width: 50%;
@@ -560,7 +560,27 @@ Responsive media queries
 ***********************************/
 
 @media (max-width: 991px) {
+	#main-cover p{
 
+		margin: 2% 5%;
+		color: white;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 1px;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	.content-right{
+		width: 100%;
+		align-self: center;
+		justify-content: flex-end;
+		padding: 5%
+	}
+	.content-left{
+		width: 100%;
+		align-self: center;
+		justify-content: flex-end;
+		padding: 5%
+	}
 	  #story{
 			flex-direction: column;
 		}
