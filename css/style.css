@@ -116,7 +116,7 @@ Banner
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.75);
 	min-height: 100vh;
-	
+
 }
 .text-dec{
 	font-size: 24px;
@@ -427,14 +427,14 @@ Responsive media queries
         float: none;
         margin: 15px 0;
     }
-    .navbar-collapse.collapse.in { 
+    .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
         overflow: hidden!important;
     }
 
-		
+
 }
 
 
@@ -445,21 +445,21 @@ Responsive media queries
 	.section-padding{
 	padding-bottom:60px;
     }
-	
+
 
    /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 	.section-padding{
 	padding-bottom:60px;
     }
-	
-
-	
 
 
-	
+
+
+
+
 @media only screen and (min-width: 768x){
-	
+
 }
     .ser-text {
     font-size: 20px;
@@ -480,7 +480,7 @@ Responsive media queries
 	}
 
 @media (min-width: 451px) {
-    
+
 
 	.ser-text {
     font-size: 20px;
@@ -500,7 +500,7 @@ Responsive media queries
 @media (min-width: 20px) {
 
 
-	
+
 	.text-dec {
     font-size: 20px;
     }
@@ -718,4 +718,9 @@ label {
   .follow {
     margin: 400px auto 0;
   }
+}
+
+/* Get Involved Page */
+#main-cover{
+	background-image:url(https://alternativeeducationindia.net/img/get-involved/teamop.jpg);
 }
