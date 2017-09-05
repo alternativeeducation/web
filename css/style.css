@@ -715,6 +715,9 @@ Responsive media queries
     .price-table .pricing-head h4 {
     font-size: 18px;
     }
+    .header-section{
+      padding-top: 60px;
+    }
 		.header-section p{
         margin:5 auto;
     }
@@ -734,6 +737,9 @@ Responsive media queries
     .intro-para {
     font-size: 20px !important;
 
+    }
+    .header-section{
+      padding-top: 60px;
     }
     .header-section p{
         font-size: 20px;
