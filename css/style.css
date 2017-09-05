@@ -400,6 +400,7 @@ Footer
 }
 /* Get Involved Page */
 #main-cover{
+  background: url("https://static.pexels.com/photos/272887/pexels-photo-272887.jpeg");
 	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
 	background-repeat: no-repeat;
 	width: 100%;
