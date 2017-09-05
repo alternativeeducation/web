@@ -1,5 +1,7 @@
-
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
 	font-size: 15px;
     line-height: 1.52;
@@ -457,7 +459,7 @@ Footer
 #code img{
 	justify-content: flex-end;
 	width: 50%;
-	max-height: 500px;
+	max-height: 450px;
 
 }
 #explore-spaces{
@@ -466,7 +468,7 @@ Footer
 #explore-spaces img{
 	justify-content: flex-start;
 	width: 50%;
-	max-height: 500px;
+	max-height: 450px;
 }
 .content-left{
 	width: 50%;
@@ -531,7 +533,7 @@ hr{
 #social-media p{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	margin: 0 3%;
+	margin: 0 5%;
 
 }
 #yourideas{
@@ -545,7 +547,7 @@ hr{
 
 
 	font-size: 19px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans',sans-serif;
 }
 #contribute p{
 	font-family: 'Roboto';
@@ -559,7 +561,11 @@ hr{
 Responsive media queries
 ************************************
 ***********************************/
-
+@media (min-width: 991px){
+	.mobile{
+		display: none;
+	}
+}
 @media (max-width: 991px) {
 	.content-left{
 		width: 100%;
@@ -606,9 +612,14 @@ Responsive media queries
 
 		}
 		.grid-item{
-			width:100%;
+			width: 100vw;
+			margin: 0;
+			padding: 0 6%;
 		}
+		#yourideas p{
+			font-size: 16px;
 
+		}
     .navbar-header {
         float: none;
     }
