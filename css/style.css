@@ -263,6 +263,9 @@ Extra Top Margin
 #marginmore{
 	margin-top:130px;
 }
+.padding80{
+  padding-top: 80px;
+}
 .marginmoreless{
 	margin-top:40px;
 }
@@ -715,9 +718,7 @@ Responsive media queries
     .price-table .pricing-head h4 {
     font-size: 18px;
     }
-    .header-section{
-      padding-top: 80px;
-    }
+
 		.header-section p{
         margin:5 auto;
     }
@@ -738,9 +739,7 @@ Responsive media queries
     font-size: 20px !important;
 
     }
-    .header-section{
-      padding-top: 80px;
-    }
+
     .header-section p{
         font-size: 20px;
 				margin:5 auto;
