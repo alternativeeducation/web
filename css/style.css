@@ -501,8 +501,9 @@ Footer
 	padding: 4%;
 
 }
+
 hr.rhalf {
-	margin-top: 0%;
+	margin: 0%;
 	width: 50%;
 	margin-left: 50%;
   border: 0;
@@ -571,7 +572,7 @@ Responsive media queries
 
 @media (max-width: 991px) {
   #main-cover h1{
-    top:15%;
+    top:25%;
   }
 	.content-left{
 		width: 100%;
