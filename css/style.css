@@ -400,7 +400,7 @@ Footer
 }
 /* Get Involved Page */
 #main-cover{
-  background-image: url("https://static.pexels.com/photos/272887/pexels-photo-272887.jpeg") no-repeat, linear-gradient(to bottom right,#002f4b,#dc4225);
+
 	width: 100%;
 	position: relative;
   background-position: 0 40px;
@@ -421,7 +421,7 @@ Footer
 
 
 	font-size: 50px;
-	color: #fff;
+	color: #4B4B4C;
 	padding: 0;
 
 }
