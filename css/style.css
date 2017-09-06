@@ -405,7 +405,7 @@ Footer
 	position: relative;
   background-position: 0 40px;
 	background-size: cover;
-	min-height: 600px;
+
 	font-family: 'Lato', sans-serif;
 
 
@@ -568,13 +568,19 @@ Responsive media queries
 	.mobile{
 		display: none;
 	}
+  #main-cover{
+    min-height:600px;
+  }
 }
 
 @media (max-width: 991px) {
+  #main-cover{
+    min-height: 450px;
+  }
   #main-cover h1{
     top:25%;
     font-size: 40px;
-    
+
   }
   .fa-fw{
     width:1em;
