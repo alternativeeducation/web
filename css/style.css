@@ -832,7 +832,7 @@ html, body {
 h1 {
   font-size: 26px;
   background: $cyan;
-  color: white;
+
   padding: 40px 0 100px 20%;
   margin-bottom: 50px;
 }
