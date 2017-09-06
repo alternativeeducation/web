@@ -572,7 +572,9 @@ Responsive media queries
 
 @media (max-width: 991px) {
   #main-cover h1{
-    display: none;
+    top:25%;
+    font-size: 40px;
+    
   }
   .fa-fw{
     width:1em;
