@@ -574,6 +574,9 @@ Responsive media queries
   #main-cover h1{
     top:22%;
   }
+  .fa-fw{
+    width:1em;
+  }
 	.content-left{
 		width: 100%;
 
