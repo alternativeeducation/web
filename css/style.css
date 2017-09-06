@@ -568,7 +568,11 @@ Responsive media queries
 		display: none;
 	}
 }
+
 @media (max-width: 991px) {
+  #main-cover h1{
+    top:15%;
+  }
 	.content-left{
 		width: 100%;
 
