@@ -13,7 +13,11 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+.wrapper{
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
 quote, q {
 	quotes: none;
 }
@@ -275,7 +279,7 @@ Footer
 ************************************/
 .footer {
     padding: 5px 0 20px;
-    background: #111;
+    background: #383838;
     color: #ffffff;
 }
 .footer a {

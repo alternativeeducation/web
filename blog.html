@@ -1,42 +1,124 @@
 ---
 layout: blog
 ---
+<!-- Wrapper -->
+	<div id="wrapper">
 
-{% for post in paginator.posts %}
-  <article class="post">
-    <header>
-      <div class="title">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <!-- <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p> -->
-      </div>
-      <div class="meta">
-        <time class="published" datetime="{{ post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        {% for category in post.categories limit:1 %}
-          <a href="#">{{ category }}</a>
+
+
+
+
+		<!-- Main -->
+			<div id="main">
+      {% for blog in site.posts %}
+				<!-- Post -->
+					<article  class="post">
+						<header>
+							<div class="title">
+								<h2><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h2>
+								<p>"{{blog.excerpt}}</p>
+							</div>
+							<div class="meta">
+								<time class="published">{{blog.date | date_to_long_string }}</time>
+								<a href="" class="author"><span class="">{{blog.author}}</span><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+							</div>
+						</header>
+						<a href="{{site.baseurl}}{{blog.url}}" class="image featured"><img src="https://www.alternativeeducationindia.net/img/articles/pic01.jpg" alt="" /></a>
+						<p>
+              {{ blog.content | strip_html | truncatewords:75 }}
+							</p>
+							<footer>
+								<ul class="actions">
+									<li><a href="{{site.baseurl}}{{blog.url}}" class="button big">Continue Reading</a></li>
+								</ul>
+								<ul class="stats">
+									<li><a href="#">General</a></li>
+									<li><a href="#" class="icon fa-heart">28</a></li>
+									<li><a href="#" class="icon fa-comment">128</a></li>
+								</ul>
+							</footer>
+					</article>
+
         {% endfor %}
-        <!--
-        <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-        -->
-      </div>
-    </header>
-    {% if post.image %}
-      <a href="{{ post.url }}" class="image featured"><img src="{{post.image}}" alt="" /></a>
-    {% endif %}
-    {{ post.excerpt }}
-    <footer>
-      <ul class="actions">
-        <li><a href="{{ post.url }}" class="button big">Continue Reading</a></li>
-      </ul>
-      <ul class="stats">
-        {% for tag in post.tags limit:3 %}
-          <li><a href="#">{{ tag }}</a></li>
-        {% endfor %}
-        <!--
-        <li><a href="#">General</a></li>
-        <li><a href="#" class="icon fa-heart">28</a></li>
-        <li><a href="#" class="icon fa-comment">128</a></li>
-        -->
-      </ul>
-    </footer>
-  </article>
-{% endfor %}
+
+
+
+
+
+				<!-- Pagination -->
+					<ul class="actions pagination">
+						<li><a href="" class="disabled button big previous">Previous Page</a></li>
+						<li><a href="https://www.alternativeeducationindia.net/articles/articles2" class="button big next">Next Page</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+
+				<!-- Intro -->
+					<section id="intro">
+						<a href="#" class="logo"><img src="https://www.alternativeeducationindia.net/img/articles/logo.png" alt="" /></a>
+						<header>
+							<h2>Articles</h2>
+							<p></a></p>
+						</header>
+					</section>
+
+				<!-- Mini Posts -->
+					<section>
+						<div class="mini-posts">
+
+							<!-- Mini Post -->
+								<article class="mini-post">
+									<header>
+										<h3><a href="https://www.alternativeeducationindia.net/articles/articles2#1x">Is Home Education An Option For Me</a></h3>
+										<time class="published" datetime="2015-10-20">October 20, 2015</time>
+										<a href="https://www.alternativeeducationindia.net/articles/articles2#1x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+									</header>
+									<a href="https://www.alternativeeducationindia.net/articles/articles2#1x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic1x.jpg" alt="" /></a>
+								</article>
+
+							<!-- Mini Post -->
+								<article class="mini-post">
+									<header>
+										<h3><a href="https://www.alternativeeducationindia.net/articles/articles2#2x">Malathi's Teaching Ecperience with David Horsburgh</a></h3>
+										<time class="published" datetime="2015-10-19">October 19, 2015</time>
+										<a href="https://www.alternativeeducationindia.net/articles/articles2#2x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+									</header>
+									<a href="https://www.alternativeeducationindia.net/articles/articles2#2x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic2x.jpg" alt="" /></a>
+								</article>
+
+							<!-- Mini Post -->
+								<article class="mini-post">
+									<header>
+										<h3><a href="https://www.alternativeeducationindia.net/articles/articles2#3x">Interview With Neethu Singh</a></h3>
+										<time class="published" datetime="2015-10-18">October 18, 2015</time>
+										<a href="https://www.alternativeeducationindia.net/articles/articles2#3x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+									</header>
+									<a href="https://www.alternativeeducationindia.net/articles/articles2#3x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic3x.jpg" alt="" /></a>
+								</article>
+
+							<!-- Mini Post -->
+								<article class="mini-post">
+									<header>
+										<h3><a href="https://www.alternativeeducationindia.net/articles/articles3#4x">An Interview With David Horsburgh</a></h3>
+										<time class="published" datetime="2015-10-17">October 17, 2015</time>
+										<a href="https://www.alternativeeducationindia.net/articles/articles3#4x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+									</header>
+									<a href="https://www.alternativeeducationindia.net/articles/articles3#4x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic4x.jpg" alt="" /></a>
+								</article>
+
+						</div>
+					</section>
+
+
+
+				<!-- About -->
+					<section class="blurb">
+						<h2>About</h2>
+						<p>Articles Written By Community Members On Education. Feel free to write one and send it to Us.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Send Form</a></li>
+						</ul>
+					</section>
