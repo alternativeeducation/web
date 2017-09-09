@@ -45,10 +45,18 @@ layout: blog
 
 
 				<!-- Pagination -->
-					<ul class="actions pagination">
-						<li><a href="{{page.previous}}" class="disabled button big previous">Previous Page</a></li>
-						<li><a href="{{page.next}}" class="button big next">Next Page</a></li>
-					</ul>
+				<ul class="actions pagination">
+					{% if page.previous %}
+						<li><a href="{{ page.previous.url }}" class="button big previous">Previous Post</a></li>
+					{% else %}
+						<li><a href="#" class="disabled button big previous">Previous Post</a></li>
+					{% endif %}
+					{% if page.next %}
+						<li><a href="{{ page.next.url }}" class="button big next">Next Post</a></li>
+					{% else %}
+						<li><a href="#" class="disabled button big next">Next Post</a></li>
+					{% endif %}
+				</ul>
 
 			</div>
 
@@ -63,6 +71,17 @@ layout: blog
 							<p></a></p>
 						</header>
 					</section>
+
+					<!-- About -->
+						<section class="blurb about-blog">
+							<h2>About</h2>
+							<p>
+
+							 Feel free to write about your Learning Journeys, Experieces, Reflections and Get It Featured Here</p>
+							<ul class="actions">
+								<li><a href="#" class="button">Send Form</a></li>
+							</ul>
+						</section>
 
 				<!-- Mini Posts -->
 					<section>
@@ -109,15 +128,4 @@ layout: blog
 								</article>
 
 						</div>
-					</section>
-
-
-
-				<!-- About -->
-					<section class="blurb">
-						<h2>About</h2>
-						<p>Articles Written By Community Members On Education. Feel free to write one and send it to Us.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Send Form</a></li>
-						</ul>
 					</section>

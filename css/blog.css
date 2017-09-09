@@ -2602,6 +2602,7 @@
 				.post > header .title h2 {
 					font-weight: 900;
 					font-size: 1.5em;
+					margin-bottom: 30px;
 				}
 
 				.post > header .title > :last-child {
@@ -2663,6 +2664,7 @@
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
+			margin-top: 4%;
 		}
 
 			.post > footer .actions {
@@ -3218,6 +3220,12 @@
 		min-width: 22em;
 		width: 22em;
 	}
+
+	  .about-blog{
+
+			padding: 2.5em  1.5em 1.5em 1.5em !important;
+			border: none;
+		}
 
 		#sidebar > * {
 			border-top: solid 1px rgba(160, 160, 160, 0.3);
