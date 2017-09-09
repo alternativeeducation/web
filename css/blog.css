@@ -2791,7 +2791,9 @@
 		}
 
 		@media screen and (max-width: 736px) {
-
+			.author img{
+				display: none;
+			}
 			.post {
 				/*padding: 1.5em 1.5em 0.1em 1.5em ;
 				left: -1.5em; */
@@ -2800,7 +2802,7 @@
 			}
 
 				.post > header {
-					padding: 3em 1.5em 0.5em 1.5em ;
+					padding: .5em 1.5em 0.5em 1.5em ;
 					left: -1.5em;
 					margin: -1.5em 0 1.5em 0;
 					width: calc(100% + 3em);
@@ -2871,7 +2873,7 @@
 
 	header p {
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
+		font-size: 10px;
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
