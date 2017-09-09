@@ -83,6 +83,7 @@ layout: blog
 							</ul>
 						</section>
 
+				{% for blog in site.posts offset:6 limit:8 %}
 				<!-- Mini Posts -->
 					<section>
 						<div class="mini-posts">
@@ -90,42 +91,13 @@ layout: blog
 							<!-- Mini Post -->
 								<article class="mini-post">
 									<header>
-										<h3><a href="https://www.alternativeeducationindia.net/articles/articles2#1x">Is Home Education An Option For Me</a></h3>
-										<time class="published" datetime="2015-10-20">October 20, 2015</time>
-										<a href="https://www.alternativeeducationindia.net/articles/articles2#1x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+										<h3><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h3>
+										<time class="published" datetime="2015-10-20">{{blog.date | date_to_long_string }}</time>
+										<a href="{{site.baseurl}}{{blog.url}}" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
 									</header>
-									<a href="https://www.alternativeeducationindia.net/articles/articles2#1x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic1x.jpg" alt="" /></a>
-								</article>
-
-							<!-- Mini Post -->
-								<article class="mini-post">
-									<header>
-										<h3><a href="https://www.alternativeeducationindia.net/articles/articles2#2x">Malathi's Teaching Ecperience with David Horsburgh</a></h3>
-										<time class="published" datetime="2015-10-19">October 19, 2015</time>
-										<a href="https://www.alternativeeducationindia.net/articles/articles2#2x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
-									</header>
-									<a href="https://www.alternativeeducationindia.net/articles/articles2#2x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic2x.jpg" alt="" /></a>
-								</article>
-
-							<!-- Mini Post -->
-								<article class="mini-post">
-									<header>
-										<h3><a href="https://www.alternativeeducationindia.net/articles/articles2#3x">Interview With Neethu Singh</a></h3>
-										<time class="published" datetime="2015-10-18">October 18, 2015</time>
-										<a href="https://www.alternativeeducationindia.net/articles/articles2#3x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
-									</header>
-									<a href="https://www.alternativeeducationindia.net/articles/articles2#3x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic3x.jpg" alt="" /></a>
-								</article>
-
-							<!-- Mini Post -->
-								<article class="mini-post">
-									<header>
-										<h3><a href="https://www.alternativeeducationindia.net/articles/articles3#4x">An Interview With David Horsburgh</a></h3>
-										<time class="published" datetime="2015-10-17">October 17, 2015</time>
-										<a href="https://www.alternativeeducationindia.net/articles/articles3#4x" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
-									</header>
-									<a href="https://www.alternativeeducationindia.net/articles/articles3#4x" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic4x.jpg" alt="" /></a>
+									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic1x.jpg" alt="" /></a>
 								</article>
 
 						</div>
 					</section>
+				{% endfor %}
