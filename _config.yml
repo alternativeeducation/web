@@ -2,5 +2,5 @@ markdown: kramdown
 baseurl: /web
 exclude: ['README.md']
 paginate_path: "blog/page:num"
-paginate: 3
+paginate: 6
 gems: [jekyll-paginate]
