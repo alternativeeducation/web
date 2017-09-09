@@ -10,7 +10,7 @@ layout: blog
 
 		<!-- Main -->
 			<div id="main">
-      {% for blog in site.posts limit:3 %}
+      {% for blog in paginator.posts %}
 				<!-- Post -->
 					<article  class="post">
 						<header>
@@ -40,7 +40,6 @@ layout: blog
 					</article>
 
         {% endfor %}
-
 
 
 

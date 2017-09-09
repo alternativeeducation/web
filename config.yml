@@ -1,5 +1,6 @@
 markdown: redcarpet
 baseurl: /web
 exclude: ['README.md']
+paginate_path: "/blog/page:num/"
 paginate: 3
-paginate_path: /page:num/
+gems: [jekyll-paginate]
