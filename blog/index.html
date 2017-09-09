@@ -46,13 +46,13 @@ layout: blog
 
 				<!-- Pagination -->
 				<ul class="actions pagination">
-					{% if page.previous %}
-						<li><a href="{{ page.previous.url }}" class="button big previous">Previous Post</a></li>
+					{% if paginator.previous_page %}
+						<li><a href="{{ paginator.previous_page_path }}" class="button big previous">Previous Post</a></li>
 					{% else %}
 						<li><a href="#" class="disabled button big previous">Previous Post</a></li>
 					{% endif %}
-					{% if page.next %}
-						<li><a href="{{ page.next.url }}" class="button big next">Next Post</a></li>
+					{% if paginator.next_page %}
+						<li><a href="{{ paginator.next_page_path }}" class="button big next">Next Post</a></li>
 					{% else %}
 						<li><a href="#" class="disabled button big next">Next Post</a></li>
 					{% endif %}

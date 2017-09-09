@@ -2,5 +2,5 @@ markdown: kramdown
 baseurl: https://www.alternativeeducationindia.net
 exclude: ['README.md']
 paginate_path: "blog/page:num"
-paginate: 6
+paginate: 4
 gems: [jekyll-paginate]
