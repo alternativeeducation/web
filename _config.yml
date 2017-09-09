@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: /web
+baseurl: https://www.alternativeeducationindia.net
 exclude: ['README.md']
 paginate_path: "blog/page:num"
 paginate: 6
