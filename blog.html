@@ -10,7 +10,7 @@ layout: blog
 
 		<!-- Main -->
 			<div id="main">
-      {% for blog in site.posts %}
+      {% for blog in site.posts limit:3 %}
 				<!-- Post -->
 					<article  class="post">
 						<header>
@@ -47,8 +47,8 @@ layout: blog
 
 				<!-- Pagination -->
 					<ul class="actions pagination">
-						<li><a href="" class="disabled button big previous">Previous Page</a></li>
-						<li><a href="https://www.alternativeeducationindia.net/articles/articles2" class="button big next">Next Page</a></li>
+						<li><a href="{{page.previous}}" class="disabled button big previous">Previous Page</a></li>
+						<li><a href="{{page.next}}" class="button big next">Next Page</a></li>
 					</ul>
 
 			</div>
