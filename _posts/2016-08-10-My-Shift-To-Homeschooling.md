@@ -1,10 +1,10 @@
 ---
-title: My Shift To HomeSchooling
-date: 2016-08-10 00:00:00 Z
 layout: fullpost
+title: My Shift To HomeSchooling
 excerpt: They view school as some sort of prison sentence they have to get through
   - George
 author: George
+date: 2016-08-10 00:00:00 +0000
 ---
 
 I have two children, both enrolled at an ICSE school in Chembur, a suburb of Bombay. My daughter is in 10th and my son in the 9th. My children are miserable. They view school as some sort of prison sentence they have to get through. Teachers who may or may not make sense and make no effort to make the material interesting. Huge loads of books that have to be humped up and down five floors. Piles of homework and two weekly tests that you had better do well at. Or else.
