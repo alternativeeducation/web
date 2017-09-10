@@ -1,10 +1,10 @@
 ---
-layout: fullpost
 title: Malathi's Teaching Experience with David Horsburgh
+date: 2016-04-24 00:00:00 Z
+layout: fullpost
 excerpt: When David arrived, I saw that he was a long haired, well built, lungi clad,
   barefoot Englishman. He sang loudly as he entered. - Malathi
 author: Malathi
-date: 2016-04-24 00:00:00 +0000
 ---
 
 I was very interested in teaching and always wanted to be a teacher but I did not like the idea of being trained to teach. I also did not like mainstream teaching. Soon after I got my M.A. in Kannada literature, I saw a very small advertisement in Deccan Herald “Wanted teachers, but not trained.” I could not believe my luck! I applied. It so happened that an English couple, Mrs and Mr. Starley desired to start a village school and were looking for teachers to take on the job of running it. David was known to them and he offered to “train” the prospective teacher candidates.
