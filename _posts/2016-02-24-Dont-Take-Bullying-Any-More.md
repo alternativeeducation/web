@@ -1,11 +1,11 @@
 ---
-title: Dont Take Bullying Anymore
-date: 2016-02-24 00:00:00 Z
 layout: fullpost
+title: Dont Take Bullying Anymore
 excerpt: When he gets hit in school by older children who bully everyone around, and
   I take it up, I am told that it's all a part of growing up and that he will learn
   how to deal with aggressive people in life! - Priya
 author: Priya
+date: 2016-02-24 00:00:00 +0000
 ---
 
 My almost nine-year-old son too goes to a 'school with a holistic approach'  which basically means we pay more than 10 times the amount we'd pay in a 'mainstream' school . All that's 'holistic' is their intention to make as much money in as little time as possible. The teachers are mostly mothers with at least two children in the same school and hence are doing their jobs not because they love children or teaching but because this way they can get free /subsidised education for their children. 
