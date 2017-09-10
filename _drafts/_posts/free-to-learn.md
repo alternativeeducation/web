@@ -1,6 +1,6 @@
 ---
 title: Free To Learn
-date: 2017-09-10 00:00:00 Z
+date: 2017-09-10 00:00:00 +0000
 feature_image: "/img/parent-stories/pic07.jpg"
 excerpt: What Is Play? How Does It Relate To Learning?
 blog_post: Contrary to popular belief, Lorem Ipsum is not simply random text. It has
