@@ -1,10 +1,10 @@
 ---
-title: Is School Necessary
-date: 2016-07-24 00:00:00 Z
 layout: fullpost
+title: Is School Necessary
 excerpt: He asked, for the nth time, why he can't stay at home and learn whatever
   he has to. Why school? - Piyasen
 author: Priyasen
+date: 2016-07-24 00:00:00 +0000
 ---
 
 I just sent my son off to school. He wasn't in a great frame of mind. He asked, for the nth time, why he can't stay at home and learn whatever he has to. Why school. He's gone with bent head, miserable.But today, I made him a promise. That he, and I, will be out of this senseless existence in six months time. I did a mental checklist. There are some points that are always brought up -- in my mind and by people -- when I think of pulling him out of the system. 
