@@ -1,10 +1,10 @@
 ---
-layout: fullpost
 title: Human Rights For Our Kids
+date: 2016-06-24 00:00:00 Z
+layout: fullpost
 excerpt: Because it is just as damaging as other sad, pathetic, inhuman, criminal
   acts carried out in the name of discipline - Manoj & Priya
 author: Manoj & Priya
-date: 2016-06-24 00:00:00 +0000
 ---
 
 We too have taken our son out of school only last week and have begun home schooling him. His happiness says it all. What sealed it for us, while we were thinking about it for a while now for very good reasons, was that last month after eating school food, he came home and started vomiting and did not stop for more than 24 hours. They served them Methi Mattar Malai on that particular day... appropriate food for children, especially in this weather? We don't think so, but that's only our opinion. 
