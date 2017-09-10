@@ -1,10 +1,11 @@
 ---
-layout: fullpost
 title: David Horsburgh interviewed
-excerpt: An interview with David Horsburgh by Rosalind Wilson. First published in India International Quarterly 10 (1 March 1983)
+date: 2010-08-24 00:00:00 Z
+layout: fullpost
+excerpt: An interview with David Horsburgh by Rosalind Wilson. First published in
+  India International Quarterly 10 (1 March 1983)
 author: David Horsburgh
 ---
-
 
 RW: David, you’ve been in India for many years as an Officer of the British Council and later on, in your own right as an educator and a writer. What led you to start the Neel Bagh School?
 

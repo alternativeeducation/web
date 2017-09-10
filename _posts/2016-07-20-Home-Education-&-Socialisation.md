@@ -1,9 +1,13 @@
 ---
-layout: fullpost
 title: Home Education & Socialisation
-excerpt: If she grows with full freedom and unconditional acceptance, she is going to grow into a balanced and mature human being who can form relationships very comfortably." - Vineeta
+date: 2016-07-20 00:00:00 Z
+layout: fullpost
+excerpt: If she grows with full freedom and unconditional acceptance, she is going
+  to grow into a balanced and mature human being who can form relationships very comfortably."
+  - Vineeta
 author: Vineeta
 ---
+
 Normally parents worry about the socialization of the child with his/her own age group. In fact it lends the child with an opportunity to interact with the people of all ages. They play with the children of their age group in the evenings and also interact with the people of all age groups with equal confidence and surety. They naturally move into this process of socialization when they are ready. If we look at life, we see that dividing children into different age groups is a very unnatural situation and not an ideal one.
 
 Another worry parents have is the exposure to ‘on stage presentations’ which is not possible in a home schooling situation. In fact what I have found is that if we don’t make a big deal of the need for such things, the children don’t have a fright for talking to people or presenting anything when there is a real need to do so. In a real situation when they need to do such things, they just do it without any problems. All they need is the self confidence and conviction in what they are doing. If we have been able to preserve that, we really don’t have to worry about anything else. What ever problems they will come across at that time, they will also find solutions to them. Of course there is no problem in going in for theatre workshops or participating in On stage presentations if that is what the child wants to do. It is only best to wait till the child is ready for that.

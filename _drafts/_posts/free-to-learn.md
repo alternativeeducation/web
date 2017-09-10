@@ -1,6 +1,6 @@
 ---
 title: Free To Learn
-date: 2017-09-10 00:00:00 +0000
+date: 2017-09-10 00:00:00 Z
 feature_image: "/img/parent-stories/pic07.jpg"
 excerpt: What Is Play? How Does It Relate To Learning?
 blog_post: Contrary to popular belief, Lorem Ipsum is not simply random text. It has
@@ -14,3 +14,4 @@ blog_post: Contrary to popular belief, Lorem Ipsum is not simply random text. It
   The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
   in section 1.10.32.
 ---
+

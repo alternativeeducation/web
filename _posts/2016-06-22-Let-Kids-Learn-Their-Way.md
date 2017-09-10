@@ -1,9 +1,13 @@
 ---
-layout: fullpost
 title: Let Kids Learn Their Way
-excerpt: If we want the child’s curiosity, initiative, originality, creativity and sensitivity to be preserved, we do need to provide an opportunity to the child where these things are not snubbed before they blossom" - Vineeta
+date: 2016-06-22 00:00:00 Z
+layout: fullpost
+excerpt: If we want the child’s curiosity, initiative, originality, creativity and
+  sensitivity to be preserved, we do need to provide an opportunity to the child where
+  these things are not snubbed before they blossom" - Vineeta
 author: Vineeta
 ---
+
 Academics is only a small part of growing up and learning. Now, what kind of academic work you are going to do with your children depends on your belief system. But sadly, many times, we deal with the children in a particular way that will lead them to grow into a particular kind of individuals which is quite different from, in fact most of the times, exactly opposite to, what we actually want them to be. A few examples here will help you see what I am trying to say. 
 
 1. We want our children to become interested in reading. So we keep on insisting, they must read. When they are small, they might read also because that is what will make us happy and their acceptance is dependent on this one factor. But, except a few cases, it does not make them people who are interested in reading. The moment the pressure from our side is removed, they would not want to read. Instead, if we provide them with an environment where there are lots of books of their interest. We ourselves read the books and let them join us if they want to read. If they don’t join us in reading, that’s their choice and accept it. This way, they might start getting interested in reading a little later but this would be a life-long gift we would have given them.

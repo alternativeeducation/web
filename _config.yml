@@ -1,6 +1,19 @@
+---
+title: Web
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 markdown: kramdown
 url: https://www.alternativeeducationindia.net
-exclude: ['README.md']
-paginate_path: "blog/page:num"
+exclude:
+- README.md
+paginate_path: blog/page:num
 paginate: 4
-plugins: [jekyll-paginate, jekyll-admin]
+plugins:
+- jekyll-paginate
+- jekyll-admin

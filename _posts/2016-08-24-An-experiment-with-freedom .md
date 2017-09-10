@@ -1,7 +1,9 @@
 ---
-layout: fullpost
 title: An Experiment With Freedom
-excerpt: A Look into how children learn when they are left to explore their natural playful instincts.
+date: 2016-08-24 00:00:00 Z
+layout: fullpost
+excerpt: A Look into how children learn when they are left to explore their natural
+  playful instincts.
 author: Jinan KB
 ---
 

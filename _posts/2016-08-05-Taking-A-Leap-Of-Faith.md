@@ -1,9 +1,14 @@
 ---
-layout: fullpost
 title: Taking A Leap Of Faith
-excerpt: But there are those times when i suddenly feel-what am i doing with her?Am i doing the right thing?For the answers to this i look towards anandita.When i see her happy and smiling, looking forward to her day,curious with questions i know that i am headed the right way. - Jyotsna
+date: 2016-08-05 00:00:00 Z
+layout: fullpost
+excerpt: But there are those times when i suddenly feel-what am i doing with her?Am
+  i doing the right thing?For the answers to this i look towards anandita.When i see
+  her happy and smiling, looking forward to her day,curious with questions i know
+  that i am headed the right way. - Jyotsna
 author: Jyotsna
 ---
+
 I am new to homeschooling as in I am a beginner just like my soon to be 6 yr old daughter is.It has been 4 months now.Initially i left it to my daughter.I left it to her so that i could have some idea of what she wanted to do/what she would like to know about/read about.I decided to follow her cue and took it from there.
 
 I chose a topic say on Fruits and would take out a book on it and show her pictures of different fruits and types.She would draw/color a picture perhaps or we would sing a song.There were days when i would do nothing-( i know that if i am not tuned in or in sync/anandita would not be tuned in either)..so we would spend time

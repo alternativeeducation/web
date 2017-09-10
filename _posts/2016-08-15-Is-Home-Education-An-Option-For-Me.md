@@ -1,9 +1,13 @@
 ---
-layout: fullpost
 title: Is Home Education An Option For Me
-excerpt: To love one's children is to be in complete communication with them it is to see that they have the right kind of education that will help them to be sensitive, intelligent and integrated. - J Krishnamurti
+date: 2016-08-15 00:00:00 Z
+layout: fullpost
+excerpt: To love one's children is to be in complete communication with them it is
+  to see that they have the right kind of education that will help them to be sensitive,
+  intelligent and integrated. - J Krishnamurti
 author: Clive
 ---
+
 There are many parents who feel a deep dissatisfaction with the schooling that their children are receiving. Some wonder why their child has such a low level of achievement, and are concerned when they see various learning difficulties developing. Others, when they see children exhibiting strong emotional and behavioral problems, suspect the school environment is seriously damaging their child's well-being.
 
 There are very genuine reasons for concern. Class sizes can be huge; teachers are under pressure from many directions and they are often too preoccupied with their own problems and ambitions to be concerned with the needs and difficulties of the children supposedly in their care. Also, teachers have absorbed the worldwide ethos that their job is merely to impart knowledge to the student, and to facilitate the passing of exams for those judged capable, the prestige-gaining high-performers. The children who are considered less able academically are often more or less ignored. And wider considerations about the whole development of the student, and his or her general well-being, are simply none of the teacher's concern.

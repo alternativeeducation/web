@@ -1,7 +1,9 @@
 ---
-layout: fullpost
 title: My Shift To HomeSchooling
-excerpt: They view school as some sort of prison sentence they have to get through - George
+date: 2016-08-10 00:00:00 Z
+layout: fullpost
+excerpt: They view school as some sort of prison sentence they have to get through
+  - George
 author: George
 ---
 

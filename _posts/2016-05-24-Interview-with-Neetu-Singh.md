@@ -1,9 +1,13 @@
 ---
-layout: fullpost
 title: Interview with Neetu Singh
-excerpt: Neetu Singh is a Teacher and Program Coordinator at the Study Centre of the Valley School, A school established in 1978 based on the teachings of the eminent philosopher and thinker, Jiddu Krishnamurti
+date: 2016-05-24 00:00:00 Z
+layout: fullpost
+excerpt: Neetu Singh is a Teacher and Program Coordinator at the Study Centre of the
+  Valley School, A school established in 1978 based on the teachings of the eminent
+  philosopher and thinker, Jiddu Krishnamurti
 author: Neethu Singh
 ---
+
 PWL:   I understand that there was a year-long search for the land where the school now resides. Krishnamurti knew that the land should be about 100 acres. When he walked through the wilderness site that included streams, a lake, woodland and meadows, he knew the school had found its home.  What is it about this site that supports the vision of the Valley School?
 
 NS:  One of the things that perhaps attracted Krishnamurti to this land was the giant Banyan tree and he had some special attraction towards that tree.  In fact, the other schools in India have a huge banyan tree.  And this one happens to have a fairly old banyan tree, perhaps a hundred years old. That’s my guess.  But I think it was more on the feeling level. From what I understand, he walked the land and when he came out he said “This is the right land, the right place to start the school.”

@@ -1,9 +1,12 @@
 ---
-layout: fullpost
 title: Observations Of A Concerned Mother
-excerpt: He picked up this attitude of learning being "work", to be avoided, and gotten over with as soon as possible. - Nalini
+date: 2016-08-17 00:00:00 Z
+layout: fullpost
+excerpt: He picked up this attitude of learning being "work", to be avoided, and gotten
+  over with as soon as possible. - Nalini
 author: Nalini
 ---
+
 My son turned 7 last month. We relocated to the UAE four years ago, and initially took a while to settle down. He has spent a total of 2 complete years in school so far, and I find that he has learnt
 
 Nothing new those two years. Most of what he knows/knew came from our sessions together which were, for him, the greatest fun, reading & doing stuff with mom. The two years he did spent in school weren't consecutive, and what he was learning in school was a rehash of stuff he'd already mastered with me. Bored I guess, he started with "bad" behaviour in school.
